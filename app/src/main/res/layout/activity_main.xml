@@ -27,24 +27,48 @@
             android:id="@+id/editVoterid"
             style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutText2"
+        android:layout_width="280sp"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:hint="@string/label_voterid"
+        app:boxStrokeColor="@color/purple_200"
+        app:boxStrokeErrorColor="@color/red"
+        app:boxStrokeWidth="3sp"
+        app:boxStrokeWidthFocused="2sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTxt"
+            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <Button
-        android:id="@+id/idValidate"
-        android:layout_width="200dp"
+    <TextView
+        android:id="@+id/idVerify"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/button_shape"
-        android:shadowColor="#7C718A"
         android:text="@string/btn_validate"
+        android:textColor="@color/teal_700"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.808"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/layoutText"
-        app:layout_constraintVertical_bias="0.065" />
+        app:layout_constraintVertical_bias="0.043" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
