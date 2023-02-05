@@ -31,43 +31,58 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/layoutText2"
-        android:layout_width="280sp"
-        android:layout_height="wrap_content"
-        android:enabled="true"
-        android:hint="@string/label_voterid"
-        app:boxStrokeColor="@color/purple_200"
-        app:boxStrokeErrorColor="@color/red"
-        app:boxStrokeWidth="3sp"
-        app:boxStrokeWidthFocused="2sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.137">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/editTxt"
-            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-    </com.google.android.material.textfield.TextInputLayout>
-
     <TextView
         android:id="@+id/idVerify"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn_validate"
         android:textColor="@color/teal_700"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.808"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/layoutText"
         app:layout_constraintVertical_bias="0.043" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutText2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:enabled="true"
+        android:hint="@string/label_otp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.249"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutText"
+        app:layout_constraintVertical_bias="0.139">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_otp"
+            style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="15sp"
+            android:inputType="number"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="92dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/button_shape"
+        android:text="@string/btn_submit"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.793"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutText"
+        app:layout_constraintVertical_bias="0.002" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

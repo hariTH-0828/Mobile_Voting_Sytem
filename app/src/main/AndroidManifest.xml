@@ -14,7 +14,7 @@
         android:theme="@style/homePage"
         tools:targetApi="31">
         <activity
-            android:name=".ValidateOTP"
+            android:name=".VoterDetails"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
