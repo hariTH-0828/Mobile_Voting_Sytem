@@ -2,6 +2,7 @@ package edu.mobile.voting;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 submitButton.setVisibility(View.VISIBLE);
             }else {
                 submitButton.setVisibility(View.INVISIBLE);
+                setLayoutVisible.setVisibility(View.INVISIBLE);
                 Toast.makeText(getApplicationContext(), "Invalid Voter ID", Toast.LENGTH_SHORT).show();
             }
         });
@@ -54,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                startActivity(new Intent(getApplicationContext(), VoterDetails.class));
             }
         });
     }
