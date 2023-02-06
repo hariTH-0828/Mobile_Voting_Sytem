@@ -7,6 +7,16 @@
     <string name="btn_submit">Submit</string>
     <string name="btn_validate">Validate ID</string>
     <string name="label_otp">OTP</string>
+
+    // VoterDetails.class
     <string name="img_voter">Voter Image</string>
     <string name="voter_details">Voter Details</string>
+    <string name="labelPhoto">Profile Photo</string>
+    <string name="btn_vote">Vote</string>
+    <string name="labelName">Name</string>
+    <string name="labelGender">Gender</string>
+    <string name="labelAge">Age</string>
+    <string name="labelAddress">Address</string>
+    <string name="labelPhone">Phone No</string>
+    <string name="labelWard">Ward No</string>
 </resources>

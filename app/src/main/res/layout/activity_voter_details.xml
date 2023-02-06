@@ -56,7 +56,7 @@
             android:layout_marginBottom="20dp"
             android:fontFamily="@font/falling_sky_black"
             android:gravity="center"
-            android:text="profile photo"
+            android:text="@string/labelPhoto"
             android:textColor="@color/black"
             tools:ignore="TextSizeCheck" />
 
@@ -85,7 +85,7 @@
                 android:fontFamily="@font/caviar_dream_bold"
                 android:gravity="center"
                 android:textSize="15sp"
-                android:text="Name : "
+                android:text="@string/labelName"
                 android:textColor="@color/black" />
 
             <TextView
@@ -98,7 +98,6 @@
                 android:layout_weight="@integer/material_motion_duration_short_1"
                 android:fontFamily="@font/caviar_dream_bold"
                 android:textSize="15sp"
-                android:text="Hariharan R S"
                 android:textColor="@color/black" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -115,7 +114,7 @@
                 android:fontFamily="@font/caviar_dream_bold"
                 android:gravity="center"
                 android:textSize="15sp"
-                android:text="Gender : "
+                android:text="@string/labelGender"
                 android:textColor="@color/black" />
 
             <TextView
@@ -128,7 +127,6 @@
                 android:layout_weight="@integer/material_motion_duration_short_1"
                 android:fontFamily="@font/caviar_dream_bold"
                 android:textSize="15sp"
-                android:text="Male"
                 android:textColor="@color/black" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -145,7 +143,7 @@
                 android:fontFamily="@font/caviar_dream_bold"
                 android:gravity="center"
                 android:textSize="15sp"
-                android:text="Age : "
+                android:text="@string/labelAge"
                 android:textColor="@color/black" />
 
             <TextView
@@ -158,7 +156,6 @@
                 android:layout_weight="@integer/material_motion_duration_short_1"
                 android:fontFamily="@font/caviar_dream_bold"
                 android:textSize="15sp"
-                android:text="21"
                 android:textColor="@color/black" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -175,7 +172,7 @@
                 android:fontFamily="@font/caviar_dream_bold"
                 android:textAlignment="viewStart"
                 android:textSize="15sp"
-                android:text="Address : "
+                android:text="@string/labelAddress"
                 android:textColor="@color/black" />
 
             <TextView
@@ -188,7 +185,6 @@
                 android:fontFamily="@font/caviar_dream_bold"
                 android:textSize="15sp"
                 android:textAlignment="viewStart"
-                android:text="39, Srinivasa Nagar 9th Street,Thirunagar, Madurai - 625006"
                 android:textColor="@color/black" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -205,7 +201,7 @@
                 android:fontFamily="@font/caviar_dream_bold"
                 android:textAlignment="viewStart"
                 android:textSize="15sp"
-                android:text="Phone No : "
+                android:text="@string/labelPhone"
                 android:textColor="@color/black" />
 
             <TextView
@@ -218,7 +214,6 @@
                 android:fontFamily="@font/caviar_dream_bold"
                 android:textSize="15sp"
                 android:textAlignment="viewStart"
-                android:text="+91 9080490700"
                 android:textColor="@color/black" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -235,7 +230,7 @@
                 android:fontFamily="@font/caviar_dream_bold"
                 android:textAlignment="viewStart"
                 android:textSize="15sp"
-                android:text="Ward No : "
+                android:text="@string/labelWard"
                 android:textColor="@color/black" />
 
             <TextView
@@ -248,7 +243,6 @@
                 android:fontFamily="@font/caviar_dream_bold"
                 android:textSize="15sp"
                 android:textAlignment="viewStart"
-                android:text="2"
                 android:textColor="@color/black" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -262,10 +256,9 @@
                 android:id="@+id/btn_vote"
                 android:layout_width="160dp"
                 android:layout_height="48dp"
-                android:text="Vote"
                 android:background="@drawable/button_shape"
                 android:gravity="center"
-                />
+                android:text="@string/btn_vote" />
 
 
         </androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "797153344113",
+    "project_id": "mobilevoting-b5e56",
+    "storage_bucket": "mobilevoting-b5e56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797153344113:android:5269f2adde24ec2600b9d0",
+        "android_client_info": {
+          "package_name": "edu.mobile.voting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797153344113-g2pprlgvnq35bnug9o1od20g46duqtj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmOUEVqfdh8gAdZVQIsz-BmDBfgIoPE2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "797153344113-g2pprlgvnq35bnug9o1od20g46duqtj4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
