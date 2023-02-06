@@ -7,4 +7,6 @@
     <string name="btn_submit">Submit</string>
     <string name="btn_validate">Validate ID</string>
     <string name="label_otp">OTP</string>
+    <string name="img_voter">Voter Image</string>
+    <string name="voter_details">Voter Details</string>
 </resources>
